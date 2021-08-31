@@ -1,0 +1,58 @@
+
+.item1, .item2, .item3, .item4{
+	background-color: #f6f6f6;
+}
+
+.Botones{
+	padding-top: 20px;
+}
+
+.Letrero{
+	color: #ae12a7;
+	font-weight: bold;
+}
+
+.Img{
+	padding-top: 10px;
+}
+
+.Logo{
+	text-align: center;
+}
+
+
+/* Grid para los campos */
+.grid-container {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: 120px 120px;
+  grid-gap: 10px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-container > div {
+  /*background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;*/
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.zoom2{
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+
+.zoom2:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño columns: n scale(2). */
+    transform : scale(0.8);
+    -moz-transform : scale(0.8);      /* Firefox */
+    -webkit-transform : scale(0.8);   /* Chrome - Safari */
+    -o-transform : scale(0.8);        /* Opera */
+
+}

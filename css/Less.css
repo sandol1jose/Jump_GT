@@ -1,0 +1,94 @@
+/*@import
+url('https://fonts.google.com/specimen/Open+Sans+Condensed');*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.Body{
+    width: 250px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.Body2{
+    width: 157px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.form{
+    width: 100%;
+    height: 60px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.form input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: #888888;
+    padding-top: 20px;
+    border: none;
+    outline: 0px;
+    font-size: 15px;
+}
+
+.form .lbl-nombre{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #888888;
+    color: red;
+    font-size: 15px;
+}
+
+.form .lbl-nombre:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #f22e0b;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+
+.text-nomb{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+    color: #888888;
+}
+
+.form input:focus + .lbl-nombre .text-nomb,
+.form input:valid + .lbl-nombre .text-nomb
+{
+    transform: translateY(-110%);
+    font-size: 12px;
+    color: #f22e0b;
+}
+
+
+.form input:focus + .lbl-nombre:after,
+.form input:valid + .lbl-nombre:after
+{
+    transform: translateX(0%);
+
+}

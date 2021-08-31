@@ -1,0 +1,24 @@
+.SubTitulo2{
+	font-weight: bold;
+}
+
+.Datos{
+	padding-top: 20px;
+	font-size: 10px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+
+.Tabla{
+	margin-left: 10px;
+}
+
+.Imagen{
+	padding-top: 20px;
+	text-align: center;
+}
+
+table, td, tr{
+	font-size: 13px;
+	border: 0px solid black;
+}

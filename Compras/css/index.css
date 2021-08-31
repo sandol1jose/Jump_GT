@@ -1,0 +1,65 @@
+.SubTitulo2{
+	font-weight: bold;
+}
+
+.Datos{
+	padding-top: 20px;
+	font-size: 10px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+
+.Tabla{
+	margin-left: 10px;
+}
+
+.Imagen{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.ImagenesFotos{
+	object-fit: cover;
+	width: 75px;
+	height: 75px;
+}
+
+table, td, tr{
+	font-size: 13px;
+	border: 0px solid black;
+}
+
+.Ventas{
+	padding-top: 40px;
+	border-bottom: 2px solid #616161;
+	height: 130px;
+}
+
+
+.logo{
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px auto 50px;
+  grid-template-rows: 25px 25px 25px;
+}
+
+.item1{
+	grid-row: 1 / 4;
+}
+
+.grid-container > div {
+  text-align: left;
+}
+
+
+
+.ellipsis {
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}

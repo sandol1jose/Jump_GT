@@ -1,0 +1,32 @@
+.PadreImputs{
+	background-color: none;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.Imputs{
+	width: 310px;
+	background-color: none;
+	margin: 0px 5px;
+}
+
+.Logo{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.Vinculo{
+	color: red;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40px 90%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  padding: 15px 0;
+}

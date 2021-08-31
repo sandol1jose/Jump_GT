@@ -1,0 +1,51 @@
+.LetrasGris{
+    color: rgba(207, 207, 207, 0.493);
+}
+
+.LetrasAmarillo{
+    color: rgb(218, 181, 21);
+    font-weight: bold;
+}
+
+.LetrasAcua{
+    color: rgb(14, 193, 199);
+    font-weight: bold;
+}
+
+.LetrasRojas{
+    color: rgb(230, 25, 25);
+    font-weight: bold;
+}
+
+
+/* CSS para el CSS GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+}
+
+.grid-container > div {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    border: 0px solid black;
+    text-align: left;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-gap: 10px;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+  }
+  
+  .grid-container2 > div {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    border: 0px solid black;
+    text-align: left;
+    font-size: 12px;
+  }

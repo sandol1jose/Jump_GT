@@ -1,0 +1,79 @@
+.base{
+	height: 100%;
+	width: 100%;
+	background: none;
+	/*IMPORTANTE*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Hijo {
+	justify-content: center;
+	background: none;
+	width: 350px;
+	height: 100%;
+}
+
+.Titulo{
+	text-align: center;
+	background-color: none;
+	color: #f22e0b;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #616161;
+}
+
+.Imagen{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.divInput{
+	text-align: center;
+	font-size: 70px;
+	height: 120px;
+}
+
+.Input{
+	width: 250px;
+	border: none;
+	outline:none;
+	background-color: transparent;
+	text-align: center;
+	border-bottom: 2px solid #616161;
+	font-weight: bold;
+}
+
+.Foother{
+	padding-top: 20px;
+	color: #f22e0b;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+.Logo{
+	text-align: center;
+}
+
+
+
+.zoom{
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+
+.zoom:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño columns: n scale(2). */
+    transform : scale(1.2);
+    -moz-transform : scale(1.2);      /* Firefox */
+    -webkit-transform : scale(1.2);   /* Chrome - Safari */
+    -o-transform : scale(1.2);        /* Opera */
+}

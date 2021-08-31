@@ -1,0 +1,77 @@
+.base{
+	height: 100%;
+	width: 100%;
+	background: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Hijo {
+	justify-content: center;
+	background: none;
+	width: 90%;
+	height: 100%;
+}
+
+
+.Titulo{
+	text-align: center;
+	color: #f22e0b;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #616161;
+}
+
+.Campos{
+	background-color: none;
+	vertical-align: center;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.ImagenDPI{
+	background-color: none;
+	padding-bottom: 20px;
+}
+
+.Logo{
+	text-align: center;
+}
+
+.divBoton{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.button {
+  background-color: #a4a4a4;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font: 150% sans-serif;
+  padding: 10px 2px;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 0px;
+  width: 275px;
+}
+
+.button:hover {
+	background-color: #cfcfcf;
+}
+.button:active {
+	background-color: #616161;
+}
+.button:disabled {
+	background-color: rgba(211, 211, 211, 0.226);
+}
+
+table, th, td {
+  border: 0px solid black;
+}
+
+td{
+	height: 40px;
+}
